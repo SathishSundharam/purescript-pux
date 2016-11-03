@@ -1,10 +1,10 @@
 module BasicExample.Counter where
 
-import Prelude ((+), (-), const, show)
-import Pux.Html (Html, div, span, button, text)
-import Pux.Html.Events (onClick)
+import Prelude 
+import Pux.Html 
+import Pux.Html.Events 
 
-data Action = Increment | Decrement
+data Action = Increment | Decrement 
 
 type State = Int
 
